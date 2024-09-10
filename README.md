@@ -10,3 +10,13 @@ You will perform the following tasks:
 <li>Dimensionality Reduction:</li> Reduce the dataset into 2 PCA components for the project.
 <li>Implement logistic regression for prediction.</li>
 
+### PROJECT STEPS
+<li>Importing necessary libraries and modules</li>
+<li>Load the breast cancer dataset from sklearn</li>
+<li>normalize the dataset to bring all the figures to within same range</li>
+<li>implement pca on the normalized dataset</li>
+<li>first we do the pca with the whole components and calculate the explained variance and cummulative explained variance</li>
+<li>This shows the normal of variance captured by each components and the visualized cumulative variance, shows how importance of adding more components</li>
+<li>The PCA component is reduced to 2, as instructed in this project</li>
+<li>The explained variance of the 2 principal components are visualized to show the distinct seperation of the dataset target class, this shows that both principal components was successful in seperating the classes</li>
+<li>Logistic regressrion model was trained nad tested using the 2 principal components of the dataset and the models accuracy was 99%</li>
